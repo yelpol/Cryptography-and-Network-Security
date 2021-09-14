@@ -2,11 +2,11 @@
 > (działa w sieci między dwoma urządzeniami, wykorzystuje bibliotekę `openssl`)
 
 ## Definicji symboli
-1. *E* - algorytm szyfrowania
-2. *D* - algorytm deszyfrowania
-3. *K* - klucz
-4. *M* - wiadomość (tekst jawny)
-5. *C* - szyfrogram
+* *E* - algorytm szyfrowania
+* *D* - algorytm deszyfrowania
+* *K* - klucz
+* *M* - wiadomość (tekst jawny)
+* *C* - szyfrogram
 
 ## I etap "Przygotowania":
 **Alice i Bob**
@@ -17,9 +17,9 @@
 ## II etap "Szyfrowanie":
 **Alice**
 1. Ustala *M* (plik z dysku)
-2. Oblicza *C = E~k(M)*
+2. Oblicza *C = E<sub>k</sub>(M)*
 3. Wysyła *C* do Boba
 
 ## III etap "Deszyfrowanie":
 **Bob**
-1. Oblicza *M = D~k(C)*
+1. Oblicza *M = D<sub>k</sub>(C)*

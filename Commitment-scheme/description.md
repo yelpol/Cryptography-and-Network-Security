@@ -1,5 +1,5 @@
 # Protokół zobowiązania bitowego
-> (działa w sieci między dwoma urządzeniami, wykorzystuje bibliotekę `openssl`)
+(działa w sieci między dwoma urządzeniami, wykorzystuje bibliotekę `openssl`)
 
 ## I etap "Klient podejmuje decyzję":
 **Alice**

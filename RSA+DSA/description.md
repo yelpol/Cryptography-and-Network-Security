@@ -6,7 +6,7 @@
 1. Generuje klucz tajny *k<sub>A</sub>* i klucz publiczny *K<sub>A<sub>* do algorytmu RSA
 2. Generuje klucz tajny *k'<sub>A</sub>* i klucz publiczny *K'<sub>A<sub>* do algorytmu DSA
 3. Podpisuje *K<sub>A<sub>* kluczem *k'<sub>A</sub>* algorytmem DSA
-- *sig = DSA<sub>k'<sub>A</sub></sub>(K<sub>A</sub>)*
+<br>*sig = DSA<sub>k'<sub>A</sub></sub>(K<sub>A</sub>)*
 4. Wysyła [*K'<sub>A</sub>, K<sub>A</sub>, s*] do Boba
 
 ## II etap "Weryfikacja i Szyfrowanie":

@@ -6,7 +6,7 @@
 1. Alice generuje klucz tajny *k<sub>A</sub>* i klucz publiczny *K<sub>A<sub>* do algorytmu RSA
 2. Alice generuje klucz tajny *k'<sub>A</sub>* i klucz publiczny *K'<sub>A<sub>* do algorytmu DSA
 3. Alice podpisuje *K<sub>A<sub>* kluczem *k'<sub>A</sub>* algorytmem DSA<br>
-<center>*sig = DSA<sub>k'<sub>A</sub></sub>(K<sub>A</sub>)*</center>
+<div align ="center">*sig = DSA<sub>k'<sub>A</sub></sub>(K<sub>A</sub>)*</div>
 4. Alice wysyła [*K'<sub>A</sub>, K<sub>A</sub>, s*] do Boba
 
 ## II etap "Weryfikacja i Szyfrowanie":
